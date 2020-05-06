@@ -25,9 +25,16 @@ JSX is NOT HTML but it looks a lot like it. Differences can be seen when looking
 
 When creating components, you have the choice between two different ways:  
 
-Functional components (also referred to as "presentational", "dumb" or "stateless" components - more about this later in the course) => const cmp = () => { return <div>some JSX</div> } (using ES6 arrow functions as shown here is recommended but optional)  
+Functional components (also referred to as "presentational", "dumb" or "stateless" components 
+```javascript
+ const cmp = () => { return <div>some JSX</div> } 
+ ```
+ (using ES6 arrow functions as shown here is recommended but optional)  
 
-class-based components (also referred to as "containers", "smart" or "stateful" components) => class Cmp extends Component { render () { return <div>some JSX</div> } }  
+class-based components (also referred to as "containers", "smart" or "stateful" components) => 
+```javascript
+class Cmp extends Component { render () { return <div>some JSX</div> } }  
+```
 
 # Props & State
 props  and state  are CORE concepts of React. Actually, only changes in props  and / or state  trigger React to re-render your components and potentially update the DOM in the browser.  

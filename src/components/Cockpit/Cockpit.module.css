@@ -1,0 +1,44 @@
+.cockpit_button {
+  color: white;
+  cursor: pointer;
+  padding: .9rem;
+  width: 10%;
+  font-size: 1rem;
+  font-weight: bold ;
+  text-align: center;
+  border: none;
+  margin-bottom: 0.5rem;
+}
+.cockpit_button_normal {
+  background: yellowgreen;
+}
+
+.cockpit_button_red {
+  background: red;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.red {
+  background: orange;
+}
+
+.bold {
+  font-weight: bolder;
+  color: black;
+}
+
+.paragraph {
+  color: white;
+  width: 20%;
+  margin: auto;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.normal {
+  background: rgb(114, 69, 52);
+  
+}
