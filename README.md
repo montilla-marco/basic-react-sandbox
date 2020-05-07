@@ -108,9 +108,12 @@ Introducing JSX: https://reactjs.org/docs/introducing-jsx.html
 Rendering Elements: https://reactjs.org/docs/rendering-elements.html  
 Components & Props: https://reactjs.org/docs/components-and-props.html  
 Listenable Events: https://reactjs.org/docs/events.html  
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+More on useEffect(): https://reactjs.org/docs/hooks-effect.html  
+State & Lifecycle: https://reactjs.org/docs/state-and-lifecycle.html  
+PropTypes: https://reactjs.org/docs/typechecking-with-proptypes.html  
+Higher Order Components: https://reactjs.org/docs/higher-order-components.html  
+Refs: https://reactjs.org/docs/refs-and-the-dom.html  
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
 
 ## Available Scripts
 
@@ -178,3 +181,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
